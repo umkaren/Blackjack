@@ -61,6 +61,7 @@ public class Game {
 
             while (true) {
                 System.out.println("Your hand: " + playerHand.getCardsAsString());
+                System.out.println("Your hand currently: " + getHandValue(playerHand));
                 System.out.println("Dealer hand: " + dealerHand.getCard(0).toString() + " + [Hidden]");
 
                 System.out.println("Do you want to Hit (H) or Stand (S)?");

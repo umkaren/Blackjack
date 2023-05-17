@@ -47,7 +47,7 @@ public class Deck {
     public String getCardsAsString() {
         String cardsAsString = "";
         for (Card card : this.deck) {
-            cardsAsString += card.toString() + "\n";
+            cardsAsString += card.toString() + " ";
         }
         return cardsAsString;
     }
